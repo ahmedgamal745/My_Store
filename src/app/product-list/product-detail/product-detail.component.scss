@@ -1,0 +1,25 @@
+.image{
+    
+}
+
+.desc{
+padding-top: 10%;
+}
+
+
+
+  
+  @media (min-width: 780px) and (max-width: 991px) {
+    /* Styles for screens between 768px and 991px wide */
+    .desc{
+        padding-top: 3%;
+    }
+  }
+  
+  @media (min-width: 1000px) and (max-width: 1199px) {
+    /* Styles for screens between 992px and 1199px wide */
+    .desc{
+        padding-top: 7%;
+    }
+  }
+  

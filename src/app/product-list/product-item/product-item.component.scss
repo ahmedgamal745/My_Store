@@ -1,0 +1,49 @@
+.card img {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    transition: 0.3s ease-in-out;
+    margin: auto;
+  }
+  
+  .card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  @media (max-width: 767px) {
+    /* Styles for screens up to 767px wide */
+    .card img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for screens between 768px and 991px wide */
+    .card img {
+      width: 200px;
+      height: 250px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for screens between 992px and 1199px wide */
+    .card img {
+      width: 275px;
+      height: 275px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Styles for screens 1200px wide and above */
+    .card img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  

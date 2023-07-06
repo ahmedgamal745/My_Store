@@ -1,0 +1,26 @@
+<div class="container ">
+    <div class="row">
+        <div class="">
+            <div>
+                <img class="imn" src="{{cartItem.product.image}}"  alt="">
+            </div>
+            <div>
+            <div>
+                <p class="py-2 " ><strong>{{ cartItem.product.title }}</strong></p>
+                <span class="py-1">${{ cartItem.product.price }}</span>
+            </div>
+            <div class="w-100">
+                <input 
+                class="form-control w-50"
+                type="number"
+                min="1"
+                max="20"
+                (ngModelChange)="updateQuantity($event)"
+                [(ngModel)]=" cartItem.quantity">
+            </div>
+            <label (click)="removeItem()" class="remove-text">Remove</label>
+            </div>
+        </div>
+        
+    </div>
+</div>
